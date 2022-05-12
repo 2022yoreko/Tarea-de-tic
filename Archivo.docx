@@ -1,0 +1,34 @@
+Acerca del Control de Versiones
+¿Qué es un control de versiones, y por qué debería importarte? Un control de versiones es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante. Aunque en los ejemplos de este libro usarás archivos de código fuente como aquellos cuya versión está siendo controlada, en realidad puedes hacer lo mismo con casi cualquier tipo de archivo que encuentres en una computadora.
+Si eres diseñador gráfico o de web y quieres mantener cada versión de una imagen o diseño (es algo que sin duda vas a querer), usar un sistema de control de versiones (VCS por sus siglas en inglés) es una decisión muy acertada. Dicho sistema te permite regresar a versiones anteriores de tus archivos, regresar a una versión anterior del proyecto completo, comparar cambios a lo largo del tiempo, ver quién modificó por última vez algo que pueda estar causando problemas, ver quién introdujo un problema y cuándo, y mucho más. Usar un VCS también significa generalmente que si arruinas o pierdes archivos, será posible recuperarlos fácilmente. Adicionalmente, obtendrás todos estos beneficios a un costo muy bajo.
+
+Concepto 
+Bazaar es un sistema de control de versiones distribuido, que nos permitirá ir manteniendo el control cambios sobre nuestros archivos, centralizados en un repositorio.
+Un Repositorio es un espacio destinado a almacenar información digital. En nuestro caso, lo que se almacenará en ese repositorio, serán los archivos -código fuente, tarballs, binarios, etc-; de las aplicaciones y ejercicios que iremos desarrollando.
+Características de Bazaar
+Bazaar es un sistema de control de versiones distribuido, de origen open source.
+Bazaar está enteramente escrito en Python.
+Funciona en múltiples Sistemas Operativos: Linux, MS  Windows, Mac OS X, etc. 
+Puede publicar repositorios usando HTTP, FTP, SFTP oWebDAV (HTTP), así como usando un servidor dedicado (el cual puedes usar SSH).
+Tiene un API para integración con otras herramientas, como aplicativos para el control de pruebas de código, sistemas de gestión de defectos, etc.
+•Adaptable
+ Orientado a la mayoría de los trabajos de desarrollo de software (local y/o remoto).
+•Amigable
+Orientado principalmente a personas que recién empiezan a hacer uso de este tipo de herramientas, enfocado principalmente a la usabilidad y eficiencia.
+•Elegante
+ Soporta el renombrado de archivos y directorios
+•Rápido
+ Permite obtener rápidamente sus ventajas y características sin afectar al proceso de desarrollo.
+•Eficiente
+Su almacenamiento utiliza un formato altamente eficiente y limpio.
+•Ligero
+ No precisa tener un servidor dedicado
+•Extensible
+ Posee una arquitectura basada en plugins, aspecto que permite dotar de mayores características específicas y acorde a cada necesidad.
+•Embebido
+Característica que le permite estar presente en una serie de aplicaciones y servicios libres y/o comerciales.
+•Seguro
+Al margen de las características que posee por sí mismo, cuenta con el patrocinio de Canonical tanto para su desarrollo como para su suporte
+•Libre
+Disponible bajo licencia GPL
+
